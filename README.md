@@ -1,1 +1,52 @@
-# automeetai
+# AutomeetAI
+Criando uma ferramenta de automação de atas de reunião com tecnologia de IA com Python.
+
+## Criando o **Python Virtual Environment**
+> ⚠️Necessário apenas um única vez.
+```sh
+python3  -m  venv  myvenv
+```
+
+## Ativando o **Python Virtual Environment**
+> **Necessário toda vez** que for executar o código.
+```sh
+source  myvenv/bin/activate
+```
+---
+
+## 🤖 AutomeetAI
+Para rodar esta aplicação de forma local execute o seguinte comando no terminal:
+```sh
+streamlit run AutomeetAI.py
+```
+Isso abrirá um navegador web com a sua aplicação "🤖 AutomeetAI".
+
+---
+
+## Hello World no Streamlit
+Para rodar esta aplicação de forma local execute o seguinte comando no terminal:
+```sh
+streamlit run hello_world_streamlit.py
+```
+Isso abrirá um navegador web com a sua aplicação "Hello World App".
+
+
+## Conversão de MP4 para MP3
+Para rodar esta aplicação de forma local execute o seguinte comando no terminal:
+```sh
+python3 mp4_to_mp3.py
+```
+Isso gerará um arquivo com o nome similar a este: ```f7f9e2a4567343da94f7e24aa403ed1b.mp3```.
+
+
+## Conversão de MP3 para Texto
+Para rodar esta aplicação de forma local execute o seguinte comando no terminal:
+```sh
+python3 mp3_to_text.py
+```
+
+## Conversação com ChatGPT
+Para rodar esta aplicação de forma local execute o seguinte comando no terminal:
+```sh
+python3 chat_com_openai.py
+```
